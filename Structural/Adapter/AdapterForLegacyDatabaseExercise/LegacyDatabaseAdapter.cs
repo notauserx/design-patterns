@@ -45,7 +45,9 @@ public class LegacyDatabaseAdapter
     public void AddCustomer(Customer customer)
     {
         LegacyCustomer legacyCustomer = _translator.TranslateToLegacy(customer);
-        int newCustomerId = _legacyCustomers.Keys.Count + 1;
+        int newCustomerId = _legacyCustomers.ContainsKey(customer.Id)
+                ? _legacyCustomers.Keys.Count + 1
+                : customer.Id;
         legacyCustomer.CustomerId = newCustomerId;
         _legacyCustomers.Add(newCustomerId, legacyCustomer);
     }
