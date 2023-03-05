@@ -1,4 +1,4 @@
-﻿namespace Patterns.Structural.Adapter.AdapterForLegacyDatabaseExercise;
+﻿namespace Structural.Adapter.AdapterForLegacyDatabaseExercise;
 
 // Define a class that represents the adapter that communicates with the legacy database.
 public class LegacyDatabaseAdapter

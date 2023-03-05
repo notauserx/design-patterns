@@ -1,6 +1,6 @@
-﻿using Patterns.Structural.Decorator.ConceptualExample;
+﻿using Structural.Decorator.ConceptualExample;
 
-namespace Patterns.Structural.Tests.Decorator;
+namespace Structural.Tests.Decorator;
 
 public class ConceptualExampleTests
 {

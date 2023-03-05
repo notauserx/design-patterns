@@ -1,4 +1,4 @@
-﻿namespace Patterns.Structural.State.VendingMachineExample;
+﻿namespace Behavioral.State.VendingMachineExample;
 
 public class DispensingState : IVendingMachineState
 {

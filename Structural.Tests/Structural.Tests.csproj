@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Patterns.Structural\Patterns.Structural.csproj" />
+    <ProjectReference Include="..\Structural\Structural.csproj" />
   </ItemGroup>
 
 </Project>

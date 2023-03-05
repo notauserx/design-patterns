@@ -1,4 +1,4 @@
-﻿namespace Patterns.Structural.Adapter.AdapterForLegacyDatabaseExercise;
+﻿namespace Structural.Adapter.AdapterForLegacyDatabaseExercise;
 
 // Define classes that represent the proprietary format used by the legacy database.
 public class LegacyCustomer

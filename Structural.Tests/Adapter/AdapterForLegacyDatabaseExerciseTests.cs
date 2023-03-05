@@ -1,6 +1,6 @@
-﻿using Patterns.Structural.Adapter.AdapterForLegacyDatabaseExercise;
+﻿using Structural.Adapter.AdapterForLegacyDatabaseExercise;
 
-namespace Patterns.Structural.Tests.Adapter;
+namespace Structural.Tests.Adapter;
 
 public class AdapterForLegacyDatabaseExerciseTests
 {

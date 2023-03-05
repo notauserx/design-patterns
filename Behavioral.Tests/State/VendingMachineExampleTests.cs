@@ -1,7 +1,7 @@
 ﻿
-using Patterns.Structural.State.VendingMachineExample;
+using Behavioral.State.VendingMachineExample;
 
-namespace Patterns.Structural.Tests.State;
+namespace Behavioral.Tests.State;
 
 public class VendingMachineExampleTests
 {

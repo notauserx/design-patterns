@@ -1,4 +1,4 @@
-﻿namespace Patterns.Structural.Adapter.AdapterForLegacyDatabaseExercise;
+﻿namespace Structural.Adapter.AdapterForLegacyDatabaseExercise;
 
 // Define a class that acts as a translator between the standard format and the proprietary format.
 public class CustomerTranslator

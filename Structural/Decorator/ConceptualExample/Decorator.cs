@@ -1,4 +1,4 @@
-﻿namespace Patterns.Structural.Decorator.ConceptualExample;
+﻿namespace Structural.Decorator.ConceptualExample;
 
 public abstract class Component
 {
@@ -24,7 +24,7 @@ public abstract class Decorator : Component
 
     public override string Operation()
     {
-        return this._component.Operation();
+        return _component.Operation();
     }
 }
 
